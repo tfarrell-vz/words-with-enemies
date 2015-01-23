@@ -24,8 +24,6 @@ def main():
     print("Left score: ", left_points)
     print("Letters in the valley: ", leftovers)
 
-
-
-
 if __name__ == '__main__':
     main()
+
