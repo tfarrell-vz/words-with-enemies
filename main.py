@@ -24,6 +24,15 @@ def main():
     print("Left score: ", left_points)
     print("Letters in the valley: ", leftovers)
 
+    if left_points > right_points:
+        print("Left wins!\n")
+
+    elif right_points > left_points:
+        print("Right wins!\n")
+
+    else:
+        print("Tie!")
+
 if __name__ == '__main__':
     main()
 
